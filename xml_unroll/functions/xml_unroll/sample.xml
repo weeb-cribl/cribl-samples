@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parent>
+    <myID>123456</myID>
+    <branchLocation>US</branchLocation>
+    <Child>
+        <state>NY</state>
+        <city>New York</city>
+    </Child>
+    <Child>
+        <state>NJ</state>
+        <city>Edgewater</city>
+    </Child>
+    <Child>
+        <state>CA</state>
+        <city>Oakland</city>
+    </Child>
+    <Child>
+        <state>CA</state>
+        <city>San Francisco</city>
+    </Child>
+</Parent>
