@@ -1,0 +1,20 @@
+{
+  "conf": {
+    "output": "default",
+    "groups": {},
+    "asyncFuncTimeout": 1000,
+    "functions": [
+      {
+        "filter": "true",
+        "conf": {
+          "unrollIdxField": "unroll_idx",
+          "pretty": false,
+          "unroll": "/^Parent\\.Child$/",
+          "inherit": "/^Parent\\.(myID|branchLocation)$/"
+        },
+        "id": "xml_unroll"
+      }
+    ]
+  },
+  "id": "xml_unroll"
+}
